@@ -26,7 +26,9 @@ $(document).ready(function() {
   });
   $(document).keydown(function(e) {
     if (e.keyCode == 88) {
-      $('.ryu-action').hide();
+      $('.ryu-still').hide();
+      $('.ryu-ready').hide();
+      $('.ryu-throwing').hide();
       $('.ryu-pose').show();
     }   
   }).keyup(function(e) {
